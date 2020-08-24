@@ -8,7 +8,7 @@
 
 ## sudo
 
-`$ sudo !!` last command with sudo
+`$ sudo !!` sudo + last command 
 
 `$ exit` leave sudo
 
