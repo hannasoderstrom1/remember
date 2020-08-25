@@ -1,5 +1,8 @@
 # Bash commands
 
+relativ sökväg = baserat på vad man står
+absolut sökväg = all information för att hitta den
+
 ## Permissions
 
 `$ chown user:group target` change ownership
@@ -19,3 +22,24 @@
 ## path
 
 `$ realpath target` absolute path to target
+
+## git
+
+`$ git clone (https)` hämta repositoriet som man vill jobba i 
+
+`$ git pull` ta ner nåt från git
+
+`$ git mv` flytta något eller döpa om något men att git har koll på förändringen
+
+`$ git log` kolla vad som har hänt (--oneline = komprimerat)
+
+## vim/emacs
+
+https://karl-voit.at/unmaintained/vim-emacs-cheatsheet_of_freezing_hell.shtml
+
+## remove
+
+`$ rm -r` remove directory (remove recursively)
+
+
+
