@@ -1,7 +1,5 @@
 # Bash commands
 
-relativ sökväg = baserat på vad man står
-absolut sökväg = all information för att hitta den
 
 ## Permissions
 
@@ -20,6 +18,10 @@ absolut sökväg = all information för att hitta den
 `$ rsync -P -r` copy + see progress + copy subfolders
 
 ## path
+
+relativ sökväg = baserat på vad man står
+
+absolut sökväg = all information för att hitta den
 
 `$ realpath target` absolute path to target
 
