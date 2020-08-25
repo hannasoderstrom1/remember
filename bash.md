@@ -35,6 +35,8 @@ absolut sökväg = all information för att hitta den
 
 `$ git commit (vad som ska commitas) -m "meddelande"` commit
 
+`$ git commit -m "meddelande, fixes #2"` commit, fixes #2 = löser issue 2/stänger issue 2
+
 `$ git add` lägga till sånt som ska committas
 
 `$ git push` push committade local changes till remote repository
