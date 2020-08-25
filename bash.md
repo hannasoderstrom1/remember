@@ -27,11 +27,17 @@ absolut sökväg = all information för att hitta den
 
 `$ git clone (https)` hämta repositoriet som man vill jobba i 
 
-`$ git pull` ta ner nåt från git
+`$ git pull` ta ner nåt från git/kolla så att min lokala repository är up to date med remote repository
 
 `$ git mv` flytta något eller döpa om något men att git har koll på förändringen
 
 `$ git log` kolla vad som har hänt (--oneline = komprimerat)
+
+`$ git commit (vad som ska commitas) -m "meddelande"` commit
+
+`$ git add` lägga till sånt som ska committas
+
+`$ git push` push committade local changes till remote repository
 
 ## vim/emacs
 
