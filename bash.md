@@ -49,7 +49,9 @@ https://karl-voit.at/unmaintained/vim-emacs-cheatsheet_of_freezing_hell.shtml
 
 ## remove
 
-`$ rm -r` remove directory (remove recursively)
+`$ rm -r` remove directory and everything that is in it(remove recursively)
+
+`$ rmdir`remove directory if it's empty
 
 
 
