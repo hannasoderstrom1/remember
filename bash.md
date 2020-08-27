@@ -53,5 +53,9 @@ https://karl-voit.at/unmaintained/vim-emacs-cheatsheet_of_freezing_hell.shtml
 
 `$ rmdir`remove directory if it's empty
 
+## tutorial
+
+http://korflab.ucdavis.edu/Unix_and_Perl/current.html#part1
+
 
 
