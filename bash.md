@@ -57,5 +57,9 @@ https://karl-voit.at/unmaintained/vim-emacs-cheatsheet_of_freezing_hell.shtml
 
 http://korflab.ucdavis.edu/Unix_and_Perl/current.html#part1
 
+# qstat
+
+`$ qstat -f -u "*"` kolla vad som körs på klustret och av vilka users
+
 
 
