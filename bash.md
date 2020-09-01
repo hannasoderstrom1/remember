@@ -61,5 +61,11 @@ http://korflab.ucdavis.edu/Unix_and_Perl/current.html#part1
 
 `$ qstat -f -u "*"` kolla vad som körs på klustret och av vilka users
 
+# textfile 
+
+`$ cls file.txt` se filen på ett "bra" sätt
+
+
+
 
 
