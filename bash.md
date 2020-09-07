@@ -17,6 +17,8 @@
 
 `$ rsync -P -r` copy + see progress + copy subfolders
 
+`rsync -avx hanna@pinbot.biomedicine.gu.se:test/303_WBC_S6/303_WBC_S6_filtered.cons .` kopiera från en remote server till local (där du är (.))
+
 ## path
 
 relativ sökväg = baserat på vad man står
