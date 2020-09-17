@@ -61,17 +61,17 @@ https://karl-voit.at/unmaintained/vim-emacs-cheatsheet_of_freezing_hell.shtml
 
 http://korflab.ucdavis.edu/Unix_and_Perl/current.html#part1
 
-# queue
+## queue
 
 `$ qstat -f -u "*"` kolla vad som körs på klustret och av vilka users
 
 `$ qsub script.sh` köa in scriptet
 
-# textfile 
+## textfile 
 
 `$ cls file.txt` se filen på ett "bra" sätt
 
-# alias 
+## alias 
 
 `command alias` ignore alias
 
