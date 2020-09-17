@@ -71,7 +71,7 @@ http://korflab.ucdavis.edu/Unix_and_Perl/current.html#part1
 
 `$ cls file.txt` se filen på ett "bra" sätt
 
+# alias 
 
-
-
+`command alias` ignore alias
 
