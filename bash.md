@@ -67,6 +67,8 @@ http://korflab.ucdavis.edu/Unix_and_Perl/current.html#part1
 
 `$ qsub script.sh` köa in scriptet
 
+`$ qdel {18280..18285}` ta bort alla jobb med id 18280 tom 18285
+
 ## textfile 
 
 `$ cls file.txt` se filen på ett "bra" sätt
