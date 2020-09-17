@@ -55,13 +55,17 @@ https://karl-voit.at/unmaintained/vim-emacs-cheatsheet_of_freezing_hell.shtml
 
 `$ rmdir`remove directory if it's empty
 
+`$ for file in correct_and_filter_umis.sh.o* ; do rm -f $file ; done` remove all these files
+
 ## tutorial
 
 http://korflab.ucdavis.edu/Unix_and_Perl/current.html#part1
 
-# qstat
+# queue
 
 `$ qstat -f -u "*"` kolla vad som körs på klustret och av vilka users
+
+`$ qsub script.sh` köa in scriptet
 
 # textfile 
 
