@@ -17,7 +17,7 @@
 
 `$ rsync -P -r` copy + see progress + copy subfolders
 
-`rsync -avx hanna@pinbot.biomedicine.gu.se:test/FILENAME(OR FOLDER/FILENAME) .` kopiera från en remote server till local (där du är (.))
+`rsync -P hanna@pinbot.biomedicine.gu.se:test/FILENAME(OR FOLDER/FILENAME) .` kopiera från en remote server till local (där du är (.))
 
 ## path
 
@@ -80,3 +80,7 @@ http://korflab.ucdavis.edu/Unix_and_Perl/current.html#part1
 ## Anders' Today I Learned
 
 https://github.com/pbiology/TIL
+
+## Find
+
+`find ./ -name "*_consensus_reads_filtered.bam" -exec cp {} \;` hittar saker och gör ett kommando (tex cp) på det man hittar
