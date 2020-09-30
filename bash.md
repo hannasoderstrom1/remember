@@ -45,6 +45,8 @@ absolut sökväg = all information för att hitta den
 
 `$ git push` push committade local changes till remote repository
 
+`$ echo "test/" > .gitignore` lägger till mappen test i gitignore-filen (två >> för att appenda när man inte gör det första gången)
+
 ## vim/emacs
 
 https://karl-voit.at/unmaintained/vim-emacs-cheatsheet_of_freezing_hell.shtml
