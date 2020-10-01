@@ -20,6 +20,16 @@ varje gång man har installerat ett paket måste man gå in i yaml-filen och lä
 `$ conda list` se vilka paket som finns i miljön
 
 
+`$ conda deactivate` deactivate den miljön du är i 
 
 
+`$ conda env list` se vilka environments som finns
 
+
+`$ conda env create -f cnv_r_copy.yaml` skapa en miljö från en yaml-fil
+
+
+`$ conda env update -f local.yaml --prune` uppdatera ett environment baserat på yml-filen. prune gör att paket som tagits bort från yaml-filen avinstalleras
+
+
+`$ conda env remove -n ENV_NAME` ta bort ett environment
