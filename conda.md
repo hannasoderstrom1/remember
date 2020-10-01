@@ -14,6 +14,9 @@ varje gång man har installerat ett paket måste man gå in i yaml-filen och lä
 `$ conda install r-xlsx=0.6.1` installera paket
 
 
+`$ conda remove r-xlsx` ta bort paket
+
+
 
 
 
