@@ -43,6 +43,8 @@ absolut sökväg = all information för att hitta den
 
 `$ git add` lägga till sånt som ska committas
 
+`$ git add folder/*` lägga till allt som finns i folder
+
 `$ git push` push committade local changes till remote repository
 
 `$ echo "test/" > .gitignore` lägger till mappen test i gitignore-filen (två >> för att appenda när man inte gör det första gången)
