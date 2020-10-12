@@ -92,3 +92,7 @@ https://github.com/pbiology/TIL
 ## Find
 
 `find ./ -name "*_consensus_reads_filtered.bam" -exec cp {} \;` hittar saker och gör ett kommando (tex cp) på det man hittar
+
+## bashrc
+
+`source ~/.bashrc` om man ändrar något och vill att det ska aktiveras utan att man behöver starta om 
