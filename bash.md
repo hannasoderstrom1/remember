@@ -49,6 +49,10 @@ absolut sökväg = all information för att hitta den
 
 `$ echo "test/" > .gitignore` lägger till mappen test i gitignore-filen (två >> för att appenda när man inte gör det första gången)
 
+workflows: https://www.atlassian.com/git/tutorials/comparing-workflows
+
+branches: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+
 ## vim/emacs
 
 https://karl-voit.at/unmaintained/vim-emacs-cheatsheet_of_freezing_hell.shtml
