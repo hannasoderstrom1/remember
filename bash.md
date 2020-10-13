@@ -65,6 +65,8 @@ https://karl-voit.at/unmaintained/vim-emacs-cheatsheet_of_freezing_hell.shtml
 
 `$ for file in correct_and_filter_umis.sh.o* ; do rm -f $file ; done` remove all these files
 
+`$ rm -f {*.xvg,.*.xvg}` remove including hidden files with this file extension
+
 ## tutorial
 
 http://korflab.ucdavis.edu/Unix_and_Perl/current.html#part1
