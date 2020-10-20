@@ -117,6 +117,13 @@ https://github.com/pbiology/TIL
 
 `source ~/.bashrc` om man ändrar något och vill att det ska aktiveras utan att man behöver starta om 
 
+## loops
+
+`$ #!/bin/bash
+        for i in $( ls ); do
+            echo item: $i
+        done`
+
 ## qsub
 
 http://bioinformatics.mdc-berlin.de/intro2UnixandSGE/sun_grid_engine_for_beginners/how_to_submit_a_job_using_qsub.html
