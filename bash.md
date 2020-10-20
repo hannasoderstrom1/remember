@@ -49,9 +49,23 @@ absolut sökväg = all information för att hitta den
 
 `$ echo "test/" > .gitignore` lägger till mappen test i gitignore-filen (två >> för att appenda när man inte gör det första gången)
 
-`$ git log --oneline` se vilka commits man har gjort och vad de har för "kod"
+`$ git log --oneline` se vilka commits man har gjort och vad de har för "commit hash"
+
+`$ git diff commithashb commithasha` se skillnaden mellan olika commits
+
+`$ git commit -p` committa bara en del av det du har gjort
 
 `$ git diff kodb koda` se skillnaden mellan olika commits
+
+`$ git diff --staged` diffen på det som är i "staging area"
+
+`$ git diff kodb koda` se skillnaden mellan olika commits
+
+`$ git reset` unstage staged files
+
+`$ git checkout [file]` gå tillbaka till senaste versionen
+
+`$ git revert [commithash]` ta bort det man gjorde i denna commit
 
 workflows: https://www.atlassian.com/git/tutorials/comparing-workflows
 
