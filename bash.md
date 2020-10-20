@@ -51,7 +51,7 @@ absolut sökväg = all information för att hitta den
 
 `$ git log --oneline` se vilka commits man har gjort och vad de har för "kod"
 
-`$ git diff kodb..koda` se skillnaden mellan olika commits
+`$ git diff kodb koda` se skillnaden mellan olika commits
 
 workflows: https://www.atlassian.com/git/tutorials/comparing-workflows
 
