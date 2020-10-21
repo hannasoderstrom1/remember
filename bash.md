@@ -67,6 +67,8 @@ absolut sökväg = all information för att hitta den
 
 `$ git revert [commithash]` ta bort det man gjorde i denna commit
 
+`$ git log --all --graph --decorate --oneline` se en graf över commits och i vilka branches
+
 workflows: https://www.atlassian.com/git/tutorials/comparing-workflows
 
 branches: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
