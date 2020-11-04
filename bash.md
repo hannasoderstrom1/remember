@@ -127,7 +127,10 @@ https://github.com/pbiology/TIL
         done`
 
 ## space
+
 `$ df -h` se hur mycket plats som finns på medstore/seqstore
+
+`$ du -h --max-depth=1 .` kollar hur mycket space det som finns i mappen du står i och dess undermappar tar upp
 
 ## qsub
 
