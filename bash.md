@@ -126,6 +126,9 @@ https://github.com/pbiology/TIL
             echo item: $i
         done`
 
+## space
+`$ df -h` se hur mycket plats som finns på medstore/seqstore
+
 ## qsub
 
 http://bioinformatics.mdc-berlin.de/intro2UnixandSGE/sun_grid_engine_for_beginners/how_to_submit_a_job_using_qsub.html
