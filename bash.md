@@ -13,11 +13,13 @@
 
 `$ exit` leave sudo
 
-## copy
+## copy / move
 
 `$ rsync -P -r` copy + see progress + copy subfolders
 
-`rsync -P hanna@pinbot.biomedicine.gu.se:test/FILENAME(OR FOLDER/FILENAME) .` kopiera från en remote server till local (där du är (.))
+`$ rsync -P hanna@pinbot.biomedicine.gu.se:test/FILENAME(OR FOLDER/FILENAME) .` kopiera från en remote server till local (där du är (.))
+
+`$ mv *IDENTIFIER* ~/YourPath/` flytta alla filer som innehåller identifier
 
 ## path
 
