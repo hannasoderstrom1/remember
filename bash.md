@@ -138,6 +138,12 @@ https://github.com/pbiology/TIL
 
 `$ md5 <filename>` man får en kod för filen och om en fil med samma namn ligger på en annan plats så kan man jämföra koden för att se om det är samma fil
 
+## screen 
+
+`$ screen -S your_session_name` starta en ny screen med valfritt namn
+
+`$ screen -ls` visa vilka screens som finns
+
 ## qsub
 
 http://bioinformatics.mdc-berlin.de/intro2UnixandSGE/sun_grid_engine_for_beginners/how_to_submit_a_job_using_qsub.html
