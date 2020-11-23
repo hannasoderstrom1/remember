@@ -101,6 +101,8 @@ http://korflab.ucdavis.edu/Unix_and_Perl/current.html#part1
 
 `$ qdel {18280..18285}` ta bort alla jobb med id 18280 tom 18285
 
+`$ qlogin -q batch.q -pe mpi 40` (köra typ ett qsub-jobb utan att göra ett qsub-script. om man är i en screen, exit för att gå ut)
+
 ## textfile 
 
 `$ cls file.txt` se filen på ett "bra" sätt
@@ -143,6 +145,7 @@ https://github.com/pbiology/TIL
 `$ screen -S your_session_name` starta en ny screen med valfritt namn
 
 `$ screen -ls` visa vilka screens som finns
+
 
 ## qsub
 
