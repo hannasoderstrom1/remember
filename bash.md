@@ -138,7 +138,7 @@ https://github.com/pbiology/TIL
 
 ## unique files
 
-`$ md5 <filename>` man får en kod för filen och om en fil med samma namn ligger på en annan plats så kan man jämföra koden för att se om det är samma fil
+`$ md5sum <filename>` man får en kod för filen och om en fil med samma namn ligger på en annan plats så kan man jämföra koden för att se om det är samma fil
 
 ## screen 
 
