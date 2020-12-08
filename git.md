@@ -40,6 +40,9 @@
 
 `$ git log --all --graph --decorate --oneline` se en graf över commits och i vilka branches
 
+`$ git clone --single-branch --branch <branchname> <remote-repo>` klona ner en specifik branch
+
+
 workflows: https://www.atlassian.com/git/tutorials/comparing-workflows
 
 branches: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
