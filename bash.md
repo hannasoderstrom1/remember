@@ -63,7 +63,7 @@ http://korflab.ucdavis.edu/Unix_and_Perl/current.html#part1
 
 ## alias 
 
-`command alias` ignore alias
+`$ command alias` ignore alias
 
 ## Anders' Today I Learned
 
@@ -71,11 +71,13 @@ https://github.com/pbiology/TIL
 
 ## Find
 
-`find ./ -name "*_consensus_reads_filtered.bam" -exec cp {} \;` hittar saker och gör ett kommando (tex cp) på det man hittar
+`$ find ./ -name "*_consensus_reads_filtered.bam" -exec cp {} \;` hittar saker och gör ett kommando (tex cp) på det man hittar
+
+`$ grep "some string" . -R` find string in file
 
 ## bashrc
 
-`source ~/.bashrc` om man ändrar något och vill att det ska aktiveras utan att man behöver starta om 
+`$ source ~/.bashrc` om man ändrar något och vill att det ska aktiveras utan att man behöver starta om 
 
 ## loops
 
