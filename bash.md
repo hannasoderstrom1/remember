@@ -102,6 +102,8 @@ https://github.com/pbiology/TIL
 
 `$ screen -ls` visa vilka screens som finns
 
+`$ screen -X -S [session # you want to kill] quit` ta bort en screen
+
 
 ## qsub
 
