@@ -42,6 +42,8 @@
 
 `$ git clone --single-branch --branch <branchname> <remote-repo>` klona ner en specifik branch
 
+`$ git push origin v1.0.0` pusha upp en tag
+
 
 workflows: https://www.atlassian.com/git/tutorials/comparing-workflows
 
