@@ -108,6 +108,14 @@ https://github.com/pbiology/TIL
 
 `$ sudo less /var/log/cron | grep incron` kolla i loggen om den har försökt köra nåt
 
+## run something in the background
+
+1. ctrl+z (lägger det i bakgrunden)
+
+2. bg1 (bakgrundsjobb 1)
+
+3. disown -h (avsäger mig ägandet)
+
 
 ## qsub
 
