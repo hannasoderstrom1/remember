@@ -112,9 +112,9 @@ https://github.com/pbiology/TIL
 
 1. ctrl+z (lägger det i bakgrunden)
 
-2. bg1 (bakgrundsjobb 1)
+2. `$ bg1` (bakgrundsjobb 1)
 
-3. disown -h (avsäger mig ägandet)
+3. `$ disown -h` (avsäger mig ägandet)
 
 
 ## qsub
