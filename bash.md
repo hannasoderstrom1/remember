@@ -108,6 +108,10 @@ https://github.com/pbiology/TIL
 
 `$ sudo less /var/log/cron | grep incron` kolla i loggen om den har försökt köra nåt
 
+## petasuite
+
+`$ petasuite -d DNA.fasterq` gör om till ej komprimerad
+
 ## run something in the background
 
 1. ctrl+z (lägger det i bakgrunden)
