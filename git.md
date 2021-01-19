@@ -42,6 +42,8 @@
 
 `$ git clone --single-branch --branch <branchname> <remote-repo>` klona ner en specifik branch
 
+`$ git tag -a v1.0.1 -m "version 1.0.1"` tagga en version
+
 `$ git push origin v1.0.0` pusha upp en tag
 
 
