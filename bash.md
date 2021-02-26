@@ -130,3 +130,7 @@ http://bioinformatics.mdc-berlin.de/intro2UnixandSGE/sun_grid_engine_for_beginne
 ## customize bash prompt
 
 https://www.howtogeek.com/307701/how-to-customize-and-colorize-your-bash-prompt/
+
+## symlink
+
+`$ ln -s <path to the file/folder to be linked> <the path of the link to be created>`
