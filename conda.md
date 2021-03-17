@@ -32,4 +32,10 @@ varje gång man har installerat ett paket måste man gå in i yaml-filen och lä
 `$ conda env update -f local.yaml --prune` uppdatera ett environment baserat på yml-filen. prune gör att paket som tagits bort från yaml-filen avinstalleras
 
 
+`$ conda env update -f local.yaml --prune` uppdatera ett environment baserat på yml-filen. prune gör att paket som tagits bort från yaml-filen avinstalleras
+
+
 `$ conda env remove -n ENV_NAME` ta bort ett environment
+
+
+`$ conda env export > environment.yaml` spara miljön som den ser ut just nu i en yaml
