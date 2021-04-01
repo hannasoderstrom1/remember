@@ -134,3 +134,7 @@ https://www.howtogeek.com/307701/how-to-customize-and-colorize-your-bash-prompt/
 ## symlink
 
 `$ ln -s <path to the file/folder to be linked> <the path of the link to be created>`
+
+## awk
+
+`$ awk 'NR == 1 {print; next} {$4=$4+1 ; print ;}' oldfile.txt > newfile.txt` hoppar över headern och gör +1 på kolumn 4
