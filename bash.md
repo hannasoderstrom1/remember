@@ -75,6 +75,8 @@ https://github.com/pbiology/TIL
 
 `$ grep "some string" . -R` find string in file
 
+`$ ls -lrt` mappar listade med nya längst ner
+
 ## bashrc
 
 `$ source ~/.bashrc` om man ändrar något och vill att det ska aktiveras utan att man behöver starta om 
