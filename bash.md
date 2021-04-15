@@ -140,3 +140,11 @@ https://www.howtogeek.com/307701/how-to-customize-and-colorize-your-bash-prompt/
 ## awk
 
 `$ awk 'NR == 1 {print; next} {$4=$4+1 ; print ;}' oldfile.txt > newfile.txt` hoppar över headern och gör +1 på kolumn 4
+
+## tabix
+
+1. `$ module load tabix`
+
+2. `$ bgzip file.vcf > file.vcf.gz`
+
+3. `$ tabix file.vcf.gz`
