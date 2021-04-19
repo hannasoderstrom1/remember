@@ -7,6 +7,8 @@
 
 `$ chmod g+w target` change permissions, group + write 
 
+`$ ls -ld directory` check permissions of a directory
+
 ## sudo
 
 `$ sudo !!` sudo + last command 
