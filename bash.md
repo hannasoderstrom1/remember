@@ -79,6 +79,8 @@ https://github.com/pbiology/TIL
 
 `$ ls -lrt` mappar listade med nya längst ner
 
+`$ find ./ -name "test*" -exec rsync -P {} folder \;` hittar filer som börjar på test och flyttar till mappen folder
+
 ## bashrc
 
 `$ source ~/.bashrc` om man ändrar något och vill att det ska aktiveras utan att man behöver starta om 
