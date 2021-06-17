@@ -120,12 +120,23 @@ https://github.com/pbiology/TIL
 
 ## run something in the background
 
-1. ctrl+z (lägger det i bakgrunden)
+1. ctrl+z (pausar)
 
 2. `$ bg 1` (bakgrundsjobb 1)
 
 3. `$ disown -h` (avsäger mig ägandet)
 
+eller
+
+1. ctrl+z (pausar)
+
+2. `$ bg` (lägger det i bakgrunden)
+
+eller så kan man köra
+
+`$ kommando &` så läggs det i bakgrunden direkt
+
+`$ jobs` så ser man vad som kör i bakgrunden
 
 ## qsub / qlogin
 
