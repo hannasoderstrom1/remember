@@ -163,3 +163,7 @@ https://www.howtogeek.com/307701/how-to-customize-and-colorize-your-bash-prompt/
 2. `$ bgzip file.vcf > file.vcf.gz`
 
 3. `$ tabix file.vcf.gz`
+
+## ssh key
+
+`$ ssh-add ~/.ssh/id_rsa` to not type passphrase when ssh
