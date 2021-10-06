@@ -167,3 +167,7 @@ https://www.howtogeek.com/307701/how-to-customize-and-colorize-your-bash-prompt/
 ## ssh key
 
 `$ ssh-add ~/.ssh/id_rsa` to not type passphrase when ssh
+
+## igv
+
+`$ parallel "java -Xmx4000m -jar /seqstore/webfolders/IGVTools/igvtools.jar count {} {}.tdf hg19" ::: *.bam` skapa tdf-fil i igv-mapp
