@@ -112,7 +112,7 @@ https://github.com/pbiology/TIL
 
 ## tmux = sort of the same as screen
 
-`Usage:
+Usage:
 
 Create new session:
 tmux new -s yournamehere
@@ -125,7 +125,7 @@ tmux ls
 
 
 attach to existing session:
-tmux attach -t yournamehere`
+tmux attach -t yournamehere
 
 ## incrontab
 
