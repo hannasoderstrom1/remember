@@ -110,6 +110,23 @@ https://github.com/pbiology/TIL
 
 `$ screen -X -S [session # you want to kill] quit` ta bort en screen
 
+## tmux = sort of the same as screen
+
+`Usage:
+
+Create new session:
+tmux new -s yournamehere
+
+detach:
+ctrl+b d
+
+list sessions:
+tmux ls
+
+
+attach to existing session:
+tmux attach -t yournamehere`
+
 ## incrontab
 
 `$ sudo less /var/log/cron | grep incron` kolla i loggen om den har försökt köra nåt
