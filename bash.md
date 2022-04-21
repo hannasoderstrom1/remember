@@ -115,17 +115,20 @@ https://github.com/pbiology/TIL
 Usage:
 
 Create new session:
-tmux new -s yournamehere
+
+`$ tmux new -s yournamehere`
 
 detach:
-ctrl+b d
+
+`$ ctrl+b d`
 
 list sessions:
-tmux ls
 
+`$ tmux ls`
 
 attach to existing session:
-tmux attach -t yournamehere
+
+`$ tmux attach -t yournamehere`
 
 ## incrontab
 
